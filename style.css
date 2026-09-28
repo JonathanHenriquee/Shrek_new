@@ -1,0 +1,164 @@
+/*reset básico*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    height: 270px;
+    /* Tamanho da cor do meu cabeçalho*/
+    background-color: rgb(117, 78, 51);
+    /*Cor do meu header*/
+}
+
+/*tamanho da imagem do meu header*/
+#logo {
+    width: 500px;
+    margin-left: 30%;
+}
+
+a {
+    color: aliceblue;
+    font-size: 20px;
+    padding: 15px;
+    /*espaço externo do NAV*/
+    background-color: green;
+    border-radius: 30px;
+    /*arredondamento do nav*/
+    margin: 30px;
+    text-decoration: none;
+    /*tirar toda decoração do texto*/
+}
+
+nav {
+    margin-left: 400px;
+    margin-top: 30px;
+
+}
+
+
+.personagem {
+    margin-top: 40px;
+    /*distanciamento externo do topo*/
+    display: inline-block;
+    /*para colocar os blocos tudo na mesma linha*/
+    margin: 10px;
+    margin-left: 50px;
+    text-align: center;
+    /*para alinhas todos os textos ao centro*/
+}
+
+.shrek {
+    margin-top: 30px;
+
+}
+
+.shrek {
+    margin-top: 0px;
+    height: 500px;
+    background-image: url(./IMAGENS/BANNER.jpg);
+    /*para adicionar uma imagem ao fundo*/
+    background-size: cover;
+    /*para editar a posição da imagem de fundo*/
+}
+
+#fundo_shrek {
+    /*cor de fundo da imagem do shrek*/
+    background-color: green;
+    border-radius: 200px 200px 0px 0px;
+    height: 500px;
+}
+
+#principal {
+    /* id do shrek para editar a imagem*/
+    border-radius: 200px 200px 0px 0px;
+}
+
+#fundo_burro {
+    background-color: rgb(160, 159, 159);
+    border-radius: 200px 200px 0px 0px;
+    height: 500px;
+
+}
+
+#burro {
+    height: 410px;
+    border-top: 80px;
+    border-radius: 200px 200px 0px 0px;
+}
+
+#fundo_gato {
+    background-color: rgb(204, 54, 0);
+    border-radius: 200px 200px 0px 0px;
+    height: 500px;
+
+}
+
+#gato {
+    height: 410px;
+    border-radius: 200px 200px 0px 0px;
+}
+
+.filmes {
+    text-align: center;
+
+    display: inline-block;
+    /*para colocar os blocos tudo na mesma linha*/
+    margin-top: 30px;
+}
+
+#shrek {
+    /*tamanho da imagem da seção de filmes*/
+    width: 500px;
+    height: 671px;
+    margin-right: 35px;
+}
+
+#titulo {
+    /*tamanho e posição do titulo da seção dos personagens*/
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#personagens {
+    /*cor de fundo da seção de personagens*/
+    background-color: antiquewhite;
+    width: 100%;
+    margin-top: 0px;
+    margin: 0px;
+}
+
+#filmes {
+    /* colração e tamanho da seção do filme*/
+    background-color: rgb(236, 175, 96);
+    width: 100%;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+#favoritos {
+    text-align: left;
+
+
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+h2 {
+    font-size: 40px;
+}
+/*rodapé do site*/
+footer{
+    background-color: rgb(122, 80, 0);
+    text-align: center;
+    color: aliceblue;
+    margin: 0%;
+    padding-top: 20px;
+
+    height: 60px;
+}
