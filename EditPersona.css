@@ -1,0 +1,125 @@
+/*reset básico*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    height: 270px;
+    /* Tamanho da cor do meu cabeçalho*/
+    background-color: rgb(117, 78, 51);
+    /*Cor do meu header*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/*tamanho da imagem do meu header*/
+#logo {
+    width: 500px;
+   
+}
+
+a {
+    background-color: green;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+/*configuração total do conteudo*/
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(226, 188, 141);
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 200px;
+}
+
+/*conteudo separação*/
+.item {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(122, 146, 68);
+    justify-content: center;
+    border: 30px solid rgb(122, 146, 68);
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+/*configuração do tamanho das imagens dos cards*/
+.imagens {
+    height: 260px;
+    width: 250px;
+    object-fit: cover;
+}
+/*alinhamento dos nomes dos persongens dos cards*/
+.nome {
+    text-align: center;
+
+}
+/*cor de fundo da página*/
+main {
+    background-color: rgb(226, 188, 141);
+    margin-bottom: 40px;
+}
+/*configuração do rodapé*/
+footer {
+
+    background-color: rgb(54, 40, 14);
+    text-align: center;
+    color: aliceblue;
+    margin: 0%;
+    padding-top: 20px;
+    height: 60px;
+}
+
+body {
+    background-color: rgb(226, 188, 141);
+}
+/* posição dos cards com display flex*/
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+/*posição do conteudo dentro dos cards*/
+.caracteristica {
+    background-color: rgb(245, 168, 53);
+    padding: 9px;
+    border-radius: 30px;
+    border: solid rgb(245, 168, 53);
+    text-align: center;
+
+}
+
+a:hover{
+background-color: rgb(54, 136, 54);
+
+}
+
+a:active{
+background-color: rgb(2, 71, 2);
+border-radius: 60px;
+padding: 25px;
+font-size: 25px;
+}
+
+.item:hover{
+transform: translateY(-10px);
+transition: 0.5s;
+
+}
+

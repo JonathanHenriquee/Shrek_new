@@ -11,31 +11,27 @@ header {
     /* Tamanho da cor do meu cabeçalho*/
     background-color: rgb(117, 78, 51);
     /*Cor do meu header*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 /*tamanho da imagem do meu header*/
 #logo {
     width: 500px;
-    margin-left: 30%;
+
 }
 
 a {
-    color: aliceblue;
-    font-size: 20px;
-    padding: 15px;
-    /*espaço externo do NAV*/
     background-color: green;
+    margin: 20px;
     border-radius: 30px;
-    /*arredondamento do nav*/
-    margin: 30px;
+    padding: 20px;
     text-decoration: none;
-    /*tirar toda decoração do texto*/
-}
-
-nav {
-    margin-left: 400px;
-    margin-top: 30px;
-
+    font-size: 20px;
+    color: aliceblue;
 }
 
 
@@ -124,7 +120,7 @@ nav {
 
 #personagens {
     /*cor de fundo da seção de personagens*/
-    background-color: antiquewhite;
+    background-color: rgb(50, 65, 15);
     width: 100%;
     margin-top: 0px;
     margin: 0px;
@@ -132,7 +128,7 @@ nav {
 
 #filmes {
     /* colração e tamanho da seção do filme*/
-    background-color: rgb(236, 175, 96);
+    background-color: rgb(122, 146, 68);
     width: 100%;
     margin: 0px;
     margin-top: 0px;
@@ -152,13 +148,31 @@ h1 {
 h2 {
     font-size: 40px;
 }
+
 /*rodapé do site*/
-footer{
-    background-color: rgb(122, 80, 0);
+footer {
+    background-color: rgb(54, 40, 14);
     text-align: center;
     color: aliceblue;
     margin: 0%;
     padding-top: 20px;
 
     height: 60px;
+}
+
+/*manter o tamanho da imagem sem deformar*/
+img {
+    object-fit: cover;
+}
+/*movimentação do navegador*/
+a:hover {
+    background-color: rgb(54, 136, 54);
+
+}
+
+a:active {
+    background-color: rgb(2, 71, 2);
+    border-radius: 60px;
+    padding: 25px;
+    font-size: 25px;
 }
